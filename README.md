@@ -18,40 +18,60 @@ Tailwind CSS: Utility-first CSS framework for rapidly building custom designs.
 Node.js: JavaScript runtime built on Chrome's V8 engine for building fast and scalable server-side applications.
 Express.js: Minimalist web framework for building APIs.
 
-📸 Screenshots 
-
-
 ⚙️ Features
 🦸‍♂️ Search for Marvel Characters: Easily browse through hundreds of Marvel characters, from Iron Man to Spider-Man.
 📚 Explore Comics: Detailed pages for individual comics, including descriptions, release dates, and cover images.
 
-🛠️ Installation & Setup
-To run this project locally, follow these steps:
+## 🛠️ Installation & Setup
 
-Prerequisites
-Node.js installed on your machine. Download Node.js
-Marvel API key (You can obtain one by signing up on the Marvel Developer Portal).
-Installation
-Clone the repository:
+To get a local copy of the project up and running, follow these steps:
 
-bash
-Copy code
-git clone https://github.com/your-username/marvel-comics-website.git
-cd marvel-comics-website
-Install dependencies:
+### Prerequisites
 
-bash
-Copy code
-npm install
-Set up environment variables: Create a .env file in the root directory and add your Marvel API key.
+Ensure you have the following installed on your machine:
 
-bash
-Copy code
-REACT_APP_MARVEL_API_KEY=your-marvel-api-key
-Run the development server:
+- **Node.js** (version 14.x or higher): [Download Node.js](https://nodejs.org/)
+- A **Marvel API key**: Sign up at the [Marvel Developer Portal](https://developer.marvel.com/) to obtain your free API key.
 
-bash
-Copy code
-npm run dev
-This will start the Vite development server, and the website will be available at http://localhost:3000.
+### Installation
+
+1. **Clone the repository:**
+
+   Open your terminal and clone the repository using Git:
+
+   ```bash
+   git clone https://github.com/your-username/marvel-comics-website.git
+
+2. **Navigate to the frontend project directory:**
+
+   ```bash
+   cd marvel-comics
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   
+4. **Run the development server:**
+
+   ```bash
+   npm run start
+
+### Backend Setup (Node.js)
+
+1. **Navigate to the backend project directory:**
+
+   ```bash
+   cd marvel-api
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   
+4. **Run the development server:**
+
+   ```bash
+   npm run start
+   
 
