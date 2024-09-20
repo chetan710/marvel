@@ -1,0 +1,23 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  
+  .menu-container {
+    transition-property: opacity, transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    opacity: 0;
+    transform: translateY(-180%);
+    z-index: 10000;
+    background-color: #131313;
+
+    &.open {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

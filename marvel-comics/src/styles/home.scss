@@ -1,0 +1,112 @@
+.comic-slider-swiper {
+    .swiper-wrapper {
+        gap: 5px;
+    }
+
+    .swiper-pagination-bullet {
+        background-color: white;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        background-color: white;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 32px;
+        top: 40%;
+        padding: 30px;
+        color: #000 !important;
+        fill: black !important;
+        stroke: black !important;
+    }
+}
+
+.series-slider-swiper {
+
+    .swiper-wrapper {
+        gap: 10px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        background-color: white;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 32px;
+        top: 40%;
+        padding: 30px;
+        color: #000 !important;
+        fill: black !important;
+        stroke: black !important;
+    }
+}
+
+.comic-slider {
+    .headline {
+        font-size: clamp(12px, 4vw, 32px);
+    }
+
+    .copy {
+        font-size: clamp(9px, 3vw, 24px);
+    }
+
+    .button {
+        all: unset;
+        padding: 0.5rem 2rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .button>.circle {
+        --size: 2.5rem;
+        position: absolute;
+        left: 0;
+        display: block;
+        width: var(--size);
+        height: var(--size);
+        background-color: red;
+        border-radius: 1.5rem;
+        transition: all 0.45s ease;
+    }
+
+    .button>.text {
+        margin-left: 1.25rem;
+        transition: all 0.45s;
+        z-index: 1;
+        color: white;
+    }
+
+    .circle>svg {
+        font-size: 1rem;
+        position: absolute;
+        left: calc(var(--size) / 2);
+        top: calc(var(--size) / 2);
+        transform: translate(-50%, -50%);
+        transition: all 0.45s ease;
+    }
+
+    .button:hover>.circle {
+        width: 100%;
+    }
+
+    .button:hover>.circle>i {
+        translate: 1rem 0;
+    }
+
+    .button:hover>.text {
+        color: black;
+    }
+}
+
+.series-wrapper {
+    .clip-div {
+        clip-path: polygon(0 0, 45% 0, 68% 100%, 0% 100%);
+    }
+}
+
+.character-slide {
+    .copy {
+        font-size: clamp(16px, 3vw, 12px);
+    }
+}

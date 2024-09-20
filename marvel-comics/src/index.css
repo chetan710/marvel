@@ -1,0 +1,8 @@
+#root {
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+:root {
+    --swiper-navigation-size: 36px;
+}
