@@ -20,5 +20,38 @@ Express.js: Minimalist web framework for building APIs.
 
 📸 Screenshots 
 
-![Uploading Screenshot 2024-09-20 at 11.08.08.png…]()
+
+⚙️ Features
+🦸‍♂️ Search for Marvel Characters: Easily browse through hundreds of Marvel characters, from Iron Man to Spider-Man.
+📚 Explore Comics: Detailed pages for individual comics, including descriptions, release dates, and cover images.
+
+🛠️ Installation & Setup
+To run this project locally, follow these steps:
+
+Prerequisites
+Node.js installed on your machine. Download Node.js
+Marvel API key (You can obtain one by signing up on the Marvel Developer Portal).
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/marvel-comics-website.git
+cd marvel-comics-website
+Install dependencies:
+
+bash
+Copy code
+npm install
+Set up environment variables: Create a .env file in the root directory and add your Marvel API key.
+
+bash
+Copy code
+REACT_APP_MARVEL_API_KEY=your-marvel-api-key
+Run the development server:
+
+bash
+Copy code
+npm run dev
+This will start the Vite development server, and the website will be available at http://localhost:3000.
 
