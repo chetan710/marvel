@@ -4,8 +4,8 @@ import axios from "axios";
 import NodeCache from "node-cache";
 
 const API_URL = "https://gateway.marvel.com/v1/public";
-const PUBLIC_KEY = process.env.PUBLIC_API_KEY || "4a180ac32c51c46bc81c5699a0b2bd0e";
-const PRIVATE_KEY = process.env.PRIVATE_API_KEY || "6a1ed0a08312d4888cd88ce8ffc83bf63becd2a6";
+const PUBLIC_KEY = process.env.PUBLIC_API_KEY ;
+const PRIVATE_KEY = process.env.PRIVATE_API_KEY ;
 const cache = new NodeCache({ stdTTL: 300 });
 
 export const getMarvel = asyncHandler(async (req, res) => {
